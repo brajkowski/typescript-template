@@ -6,7 +6,8 @@
     "check-lint": "eslint .",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
