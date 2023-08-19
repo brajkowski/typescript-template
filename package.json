@@ -1,6 +1,9 @@
 {
   "name": "typescript-template",
   "packageManager": "yarn@3.6.2",
+  "scripts": {
+    "check-lint": "eslint ."
+  },
   "devDependencies": {
     "@types/jest": "^29.5.3",
     "@types/node": "^18.0.0",
