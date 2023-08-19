@@ -2,6 +2,7 @@
   "name": "typescript-template",
   "packageManager": "yarn@3.6.2",
   "scripts": {
+    "check-format": "prettier --check .",
     "check-lint": "eslint ."
   },
   "devDependencies": {
