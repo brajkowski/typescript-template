@@ -16,6 +16,11 @@ An opinionated TypeScript template repository that provides the following toolin
 
 - [Node.js (v18)](https://nodejs.org/en)
   - Consider using [nvm](https://github.com/nvm-sh/nvm) to manage your Node.js installations which uses the [.nvmrc](./.nvmrc) file to set the correct Node.js version
+- [Yarn](https://yarnpkg.com/getting-started/install)
+  - Consider managing Yarn with [corepack](https://github.com/nodejs/corepack) -- it ships with Node.js v16+ and enabling Yarn is as simple as running:
+    ```
+    corepack enable
+    ```
 
 ## Getting started 🚀
 
