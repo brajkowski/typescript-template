@@ -2702,12 +2702,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.0":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
+"husky@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "husky@npm:9.0.2"
   bin:
-    husky: lib/bin.js
-  checksum: 837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
+    husky: bin.js
+  checksum: 6a9c0a81f25a743e2d0911cbe3f7e8809238f61129eb4dbf6a5e89b21406fb2af4d228d051f80b3f90c9408696b90b418e731aacbac00baa57f84db40a8fa157
   languageName: node
   linkType: hard
 
@@ -4916,7 +4916,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^6.19.1
     "@typescript-eslint/parser": ^6.19.1
     eslint: ^8.56.0
-    husky: ^8.0.0
+    husky: ^9.0.2
     jest: ^29.7.0
     lint-staged: ^15.2.0
     pinst: ^3.0.0
