@@ -15,7 +15,7 @@ const compat = new FlatCompat({
 
 export default [
   {
-    ignores: ["**/jest.config.ts", "**/node_modules/"],
+    ignores: ["**/jest.config.ts", "**/node_modules/", "**/.yarn/"],
   },
   ...compat.extends(
     "eslint:recommended",

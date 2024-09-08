@@ -1,6 +1,6 @@
 {
   "name": "typescript-template",
-  "packageManager": "yarn@3.6.2",
+  "packageManager": "yarn@4.4.1",
   "scripts": {
     "check-format": "prettier --check .",
     "check-lint": "eslint .",
