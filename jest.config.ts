@@ -1,14 +1,7 @@
 import type { Config } from "jest";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
+import { createDefaultPreset } from "ts-jest";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const config: Config = {
-  moduleDirectories: ["node_modules", __dirname],
-  preset: "ts-jest",
-  testEnvironment: "node",
-};
-
-export default config;
+export default {
+  ...createDefaultPreset(),
+  moduleDirectories: ["node_modules", "./src"],
+} satisfies Config;
