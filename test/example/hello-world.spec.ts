@@ -1,4 +1,4 @@
-import helloWorld from "src/hello-world";
+import { helloWorld } from "example";
 
 describe("helloWorld()", () => {
   it.each(["Hello world!"])("should return %p", (expected) => {
