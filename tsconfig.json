@@ -1,8 +1,13 @@
 {
-  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "noImplicitOverride": true
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "target": "esnext",
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "strict": true
   }
 }
