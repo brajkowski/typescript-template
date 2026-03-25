@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledPlugins": {
+    "typescript-lsp@claude-plugins-official": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(yarn check-format)",
+      "Bash(yarn check-lint)",
+      "Bash(yarn test)",
+      "Bash(yarn install)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yarn check-lint --fix; yarn check-format --write"
+          }
+        ]
+      }
+    ]
+  }
+}
